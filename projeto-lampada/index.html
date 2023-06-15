@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acenda</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function changeImage() {
+            let image = document.getElementById("myImage");
+            let cores = document.body;
+            let frase = document.getElementById("frase");
+            if (image.src.match("img/lampadadesligada.png")) {
+                image.src = "img/lampadaquebrada.png";
+                cores.style.backgroundColor = "brown";
+                cores.style.color = "grey";
+                frase.textContent = "Ops, quebrou, Clique para trocar";
+
+            } else if (image.src.match("img/lampadaquebrada.png")) {
+                image.src = "img/lampadaligada.png";
+                cores.style.backgroundColor = "white";
+                cores.style.color = "black";
+                frase.textContent = "Clique para apagar";
+
+            } else {
+                image.src = "./img/lampadadesligada.png";
+                cores.style.backgroundColor = "black";
+                cores.style.color = "yellow";
+                frase.textContent = "Clique para acender";
+            }
+        }
+    </script>
+   </head>
+
+<body>
+    <main>
+        <img id="myImage" src="img/desligada.jpg" width="250px"/>
+        <button id="myCor" onclick="changeImage()">Clique</button>
+        <h1 id="frase"></h1>
+    </main>
+
+</body>
+
+</body>
+
+</html>
