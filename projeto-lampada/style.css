@@ -1,9 +1,17 @@
-header, main{
+header,
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
 }
-img{
-    width: 250px;
+
+button {
+    width: 80px;
+    background-color: rgb(212, 190, 62);
+    color: rgb(58, 53, 53);
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
 }
