@@ -1,9 +1,8 @@
-# aulaJS-DOM
-
-
-# O que é JavaScript?
-
 ![O que é JavaScript](./projeto-lampada/img/Captura%20de%20tela%202023-07-04%20142709.png)
+
+
+## O que é JavaScript?
+
 
 JavaScript é uma linguagem de programação criada em 1995 por Brendan Eich. 
 
@@ -48,19 +47,14 @@ Onde utilizar:
 ```
 **OBS**: a tag script não é autocontida. Assim, ela deve ser composta por uma tag de abertura, seu conteúdo, e a tag de fechamento.
 
----
 
-# DOM - Document Object Model
+# O que é DOM ?
 
-![O que é DOM](./assets/domhtml.gif)
-
-## O que é DOM ?
-
-DOM é uma sigla que significa **Document Object Model.** Quando a página é carregada o browser cria um objeto que representa os elementos da página a partir do **HTML.**
+[DOM](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model) é uma sigla que significa **Document Object Model.** Quando a página é carregada o browser cria um objeto que representa os elementos da página a partir do **HTML.**
 
 O DOM é uma representação de uma página HTML e de todos os seus conteúdos. Por isso, ele se assemelha a uma árvore cujos galhos são nós, onde cada tag e conteúdo geram um nó. 
 
-![domtree](https://raw.githubusercontent.com/reprograma/On10-TodasEmTech-JavascriptI/main/assets/domtree.jpg)
+![Arvore DOM com tipos de nós](https://raw.githubusercontent.com/reprograma/On10-TodasEmTech-JavascriptI/main/assets/arvoredom.jpeg)
 
 **IMPORTANTE**: **o DOM não pertence nem ao HTML, nem ao JavaScript**. Ele é apenas um conjunto de regras implementado pelos principais navegadores. O seu conteúdo é alimentado pelo arquivo em HTML, e ele é consumido pelo nosso script, mas isso não quer dizer que ele pertença ao HTML ou ao JavaScript.
 
@@ -74,7 +68,6 @@ Assim, o DOM é composto por quatro tipos principais de nós:
 - **Text** - é o conteúdo de texto que vai entre os elementos (tags).
 - **Attribut** - são os todos atributos para um nó específico. No caso, o attribute class="HERO" está associado ao elemento, outros exemplos de atributos são o href, o id, entre outros.
 
-![Arvore DOM com tipos de nós](https://raw.githubusercontent.com/reprograma/On10-TodasEmTech-JavascriptI/main/assets/arvoredom.jpeg)
 
 ---
 
@@ -83,10 +76,6 @@ Assim, o DOM é composto por quatro tipos principais de nós:
 Por que é tão importante entender o que é o DOM e como ele funciona? Para que possamos manipular conteúdo, estrutura e estilo, bem como criar eventos dentro da página HTML por meio do JavaScript ou outras linguagens de programação.
 
 Podemos manipular o DOM para realizar alterações na estrutura do HTML, alterar estilos, modificar conteúdos e adicionar diversos eventos.
-
-![Manipulação DOM](./assets/manipulacaodom.gif)
-
----
 
 # Métodos de manipulação - HTML/DOM
 
