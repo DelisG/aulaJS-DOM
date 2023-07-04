@@ -3,7 +3,7 @@
 
 # O que é JavaScript?
 
-![O que é JavaScript](https://d2v4zi8pl64nxt.cloudfront.net/javascript-seo/5948abfc0e2df5.02876591.gif)
+![O que é JavaScript](./projeto-lampada/img/Captura%20de%20tela%202023-07-04%20142709.png)
 
 JavaScript é uma linguagem de programação criada em 1995 por Brendan Eich. 
 
