@@ -1,4 +1,4 @@
-![O que é JavaScript](./projeto-lampada/img/Captura%20de%20tela%202023-07-04%20142709.png)
+![](./projeto-lampada/img/logo.png)
 
 
 ## O que é JavaScript?
